@@ -1,0 +1,33 @@
+{
+  "name": "react-webpack-babel-starter",
+  "version": "1.0.0",
+  "description": "React-Webpack-Babel Starter App",
+  "main": "webpack/webpack.common.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --config webpack/webpack.prod.js",
+    "dev": "./node_modules/.bin/webpack-dev-server --progress --colors --config webpack/webpack.dev.js"
+  },
+  "author": "apvarun",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.9",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^2.30.1",
+    "prop-types": "^15.6.0",
+    "style-loader": "^0.20.2",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.1"
+  }
+}
